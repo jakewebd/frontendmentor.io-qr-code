@@ -1,15 +1,57 @@
 <!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Outfit" rel="stylesheet" type="text/css">
 <style>
  body{
    background-color: hsl(212,45%,89%);
+
   }
-  
-  
+  #main-container{
+width:200px;
+height:320px;
+position:relative;
+margin:42%;
+background-color:white;
+border-radius:5%;
+box-shadow:2px 2px rgba(0,0,0,0.1);
+  }
+  #qr{
+    border-radius:10px;
+    position:absolute;
+    top:3%;
+    left:5%;
+    width:90%;
+    
+  }
+  #qrhead{
+  font-weight:700;
+  font-size: 18px;
+  position:absolute;
+  text-align:center;
+  top:59%;
+  font-family:Outfit;
+
+
+  }
+  #qrp{
+    font-size:10px;
+    font-weight:400;
+    text-align:center;
+    position:absolute;
+    top:80%;
+    font-family:Outfit;
+  }
 </style>
 
 <html lang="en">
 
+<div id="main-container">
 
+<img id="qr" width="200px" src="C:\Users\yaak1\Documents\GitHub\frontendmentor.io-qr-code\images\image-qr-code.png">
+<br>
+<h1 id="qrhead"><strong>Improve your front-end skills by building projects </strong>        </h1>
+<p id="qrp"> Scan the QR code to visit Frontend Mentor and take your coding sills to the next level</p>             </p>
+
+</div>
   
   
   
